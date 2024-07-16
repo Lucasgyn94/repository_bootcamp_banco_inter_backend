@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\Admin\Desktop\DigitalOne\9- Bootcamp OneTech Inter - BackEnd\2- Spring Framework\.metadata\.plugins\org.eclipse.jdt.core
+2624299674.index
+1865797976.index

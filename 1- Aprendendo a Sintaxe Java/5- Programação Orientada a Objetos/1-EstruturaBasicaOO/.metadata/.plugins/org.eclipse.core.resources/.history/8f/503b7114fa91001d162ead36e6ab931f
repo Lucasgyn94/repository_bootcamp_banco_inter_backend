@@ -1,0 +1,12 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Carro carro = new Carro();
+		carro.totalValorTanque(10, 2.00);
+		
+
+	}
+
+}

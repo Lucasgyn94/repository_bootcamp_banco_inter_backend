@@ -1,0 +1,63 @@
+==> MAVEN
+
+O Maven é uma ferramenta desenvolvida pela Apache, ela serve para gerenciar as dependências e automatizar seus builds.
+
+Já o pom.xml é o arquivo de configuração do Maven.
+
+== CRIANDO PROJETO COM MAVEN
+
+mvn archetype:generate -DgroupId=one.digitalinnovation -DartifactId=quick-start-maven -Darchetype=maven-archetype-quickstart -DinteractiveMode=false
+
+== COMPILAR CLASSES
+mvn compiler
+# Cria a pasta "target"
+
+== Teste
+mvn test
+# Faz asserção das classes
+
+== EMPACOTAR O SOFTWARE (CRIA O JAR DA APLICAÇÃO )
+mvn package
+# Cria em "target" um jar.
+
+== LIMPAR A PASTA TARGE
+mvn clean
+
+== COMO ENCONTRAR DIFERENTES TIPOS DE PROJETO MAVEN
+# Digitar na internet "maven archetype list"
+
+==> ENTENDO O POM
+POM = Project Object Model
+- unidade fundamental de trabalho
+- formato XML
+- detalha o projeto
+- detalha como construir o projeto
+- Maven sempre procura pelo pom.xml para realizar sua execução
+
+-> Mais detalhes pom.xml
+- Nome do projeto
+- dependências
+- módluos
+- configurações de build
+- detalhes do projeto (nome, descrição, licença, url)
+- configurações de ambiente (repositórios, tracking, profiles)
+- exemplos
+
+OBS:
+Existe também o SUPERPOM um elemento pai do pom
+
+==> REPOSITÓRIOS
+Locais onde encontrar bibliotecas e plugins que o Maven provê
+- tipos: local e remoto
+
+-> Remoto
+- é o local central utilizado pelo Maven para buscar os artefatos.
+- configurado automaticamente pelo Super POM para utilizar o Maven central
+
+-> Local
+- é o repositório na máquina utilizado pelo Maven para buscar os artefatos
+
+- estratégia de caching
+- Localizações
+- Windows: %USERPROFILE%\.m2\repository
+

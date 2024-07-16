@@ -1,0 +1,2 @@
+## application.properties
+Armazena status e informações da aplicação que não vai ter alterações/mudanças no decorrer do programa.

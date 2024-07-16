@@ -1,0 +1,7 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:NomeIdade,org.eclipse.launchbar.core.descriptorType.default\:Nota,org.eclipse.launchbar.core.descriptorType.default\:Maior_E_Media,org.eclipse.launchbar.core.descriptorType.default\:Par_E_Impar,org.eclipse.launchbar.core.descriptorType.default\:Tabuada,org.eclipse.launchbar.core.descriptorType.default\:Fatorial,org.eclipse.launchbar.core.descriptorType.default\:OrdemInversa,org.eclipse.launchbar.core.descriptorType.default\:Consoantes,org.eclipse.launchbar.core.descriptorType.default\:NumerosAleatorios,org.eclipse.launchbar.core.descriptorType.default\:ArrayMultidimensional
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:NomeIdade/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:NomeIdade/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

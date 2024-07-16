@@ -1,0 +1,23 @@
+package desafios.estruturasDeRepeticao;
+
+import java.util.Scanner;
+
+public class Maior_E_Media {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		int numero;
+		int limite = 0;
+		
+		do {
+			System.out.println("Numero: ");
+			numero = entrada.nextInt();
+			limite = limite + 1;
+		} while (limite <= 5);
+		
+		entrada.close();
+		System.out.println("Fim");
+	}
+	
+}

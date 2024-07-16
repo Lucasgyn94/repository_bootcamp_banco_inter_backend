@@ -1,0 +1,35 @@
+package desafios.estruturasDeRepeticao;
+
+import java.util.Scanner;
+
+/*
+ * Faça um programa que leia 5 números
+ * e informe o maior número e a média
+ * desses números.
+ * 
+ * */
+public class Maior_E_Media {
+
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		
+		int numero;
+		int limite = 0;
+		int maior = 0;
+		
+		do {
+			System.out.println("Numero: ");
+			numero = entrada.nextInt();
+			limite = limite + 1;
+			
+			if (numero > maior) {
+				maior = numero;
+			}
+			System.out.println("Maior: " + maior);
+		} while (limite <= 5);
+		
+		entrada.close();
+		System.out.println("Fim");
+	}
+	
+}

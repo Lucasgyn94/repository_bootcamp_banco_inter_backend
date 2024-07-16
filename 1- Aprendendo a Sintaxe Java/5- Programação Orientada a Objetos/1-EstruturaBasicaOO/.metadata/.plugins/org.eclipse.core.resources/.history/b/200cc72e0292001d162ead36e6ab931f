@@ -1,0 +1,17 @@
+package main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Carro car1 = new Carro()
+		car1.setCor("Black");
+		car1.setModelo("Toyota Corolla 2023");
+		car1.setCapacidadeTanque(65);
+		
+		System.out.println(car1.getCor());
+		System.out.println(car1.getModelo());
+		System.out.println(car1.getCapacidadeTanque());
+		
+	}
+
+}

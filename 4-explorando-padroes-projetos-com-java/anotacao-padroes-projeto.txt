@@ -1,0 +1,18 @@
+==> PADRÕES DE PROJETOS
+São soluções consolidadas para problemas recorrentes no desenvolvimento e manutenção de software orientado a objetos.
+
+Existem 3 padrões mais utilizados:
+* Singleton
+Permiti a criação de uma única instância de uma classe e fornecer um modo para recuperá-la
+
+* Strategy
+Simplificar a variação de algoritmos para a resolução de um mesmo problema. Provem do conceito de interfaces.
+
+* Facade
+Prover uma interface que reduza a complexidade nas integrações com subsistemas.
+
+==> SPRING FRAMEWORK
+Alguns padrões de projetos com spring:
+* singleton: @Bean e @Autowired
+* strategy: @Service e @Repository
+* facade: construiremos uma API REST com o mesmo objetivo desse padrão, abstrair a complexidades das seguintes integrações: Spring Data JPA e ViaCep (Feign).

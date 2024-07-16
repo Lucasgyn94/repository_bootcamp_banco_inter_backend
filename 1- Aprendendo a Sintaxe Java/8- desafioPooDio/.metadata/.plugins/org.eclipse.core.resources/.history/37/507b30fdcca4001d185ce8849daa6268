@@ -1,0 +1,60 @@
+package main;
+
+import java.time.LocalDate;
+
+import br.com.dio.desafio.dominio.Bootcamp;
+import br.com.dio.desafio.dominio.Curso;
+import br.com.dio.desafio.dominio.Dev;
+import br.com.dio.desafio.dominio.Mentoria;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Curso c1 = new Curso();
+		c1.setTitulo("Curso de Java");
+		c1.setDescricao("Descrição curso java");
+		c1.setCargaHoraria(8);
+		
+		Curso c2 = new Curso();
+		c1.setTitulo("Curso de Java");
+		c1.setDescricao("Descrição curso java");
+		c1.setCargaHoraria(8);
+		
+		Mentoria mentoria = new Mentoria();
+		mentoria.setTitulo("Mentoria de Java");
+		mentoria.setDescricao("Descrição da mentoria");
+		mentoria.setLocalDate(LocalDate.now());
+		
+		Bootcamp b1 = new Bootcamp();
+		b1.setNome("Bootcamp de Java Developer");
+		b1.setDescricao("Descrição Bootcamp Java Developer");
+		b1.getConteudos().add(c1);
+		b1.getConteudos().add(c2);
+		b1.getConteudos().add(mentoria);
+		
+		Dev devLucas = new Dev();
+		devLucas.setNome("Lucas");
+		devLucas.inscreverBootcamp(b1);
+		System.out.println("\nConteúdos Inscritos Lucas: "  + devLucas.getConteudosInscritos());
+		devLucas.progredir();
+		devLucas.progredir();
+		System.out.println("\n-----------------------------------");
+		System.out.println("\nConteúdos Inscritos Lucas: "  + devLucas.getConteudosInscritos());
+		System.out.println("\nConteúdos Concluidos Lucas: "  + devLucas.getConteudosConcluidos());
+		System.out.println("===============================");
+		
+		Dev devTampinha = new Dev();
+		devTampinha.setNome("Tampinha");
+		devTampinha.inscreverBootcamp(b1);
+		System.out.println("\nConteúdos Inscritos de Tampinha: " + devTampinha.getConteudosInscritos());
+		devTampinha.progredir();
+		devTampinha.progredir();
+		devTampinha.progredir();
+		System.out.println("\n--------------------------");
+		System.out.println("\nConteúdos Inscritos Tampinha: "  + devTampinha.getConteudosInscritos());
+		System.out.println("\nConteúdos Concluidos Tampinha: "  + devTampinha.getConteudosConcluidos());
+		System.out.println("===============================");
+
+	}
+
+}

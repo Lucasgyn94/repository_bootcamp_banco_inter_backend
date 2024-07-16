@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\Admin\Desktop\DigitalOne\9- Bootcamp OneTech Inter - BackEnd\1- Aprendendo a Sintaxe Java\2- Lógica Condicional e  Controle De fluxos em java\.metadata\.plugins\org.eclipse.jdt.core
+2141117034.index
+2753800241.index
+1865797976.index
+3882996674.index
